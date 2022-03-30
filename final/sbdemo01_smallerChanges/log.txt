@@ -1,0 +1,45 @@
+2022-03-30 15:31:14.780  INFO 2368 --- [restartedMain] c.n.sbdemo01.Sbdemo01Application         : Starting Sbdemo01Application using Java 17.0.2 on NB_SB_2021 with PID 2368 (C:\Source\projects-java\online\uek295_Sky-Bollin\final\sbdemo01_smallerChanges\build\classes\java\main started by Sky Bollin in C:\Source\projects-java\online\uek295_Sky-Bollin\final\sbdemo01_smallerChanges)
+2022-03-30 15:31:14.781  INFO 2368 --- [restartedMain] c.n.sbdemo01.Sbdemo01Application         : No active profile set, falling back to 1 default profile: "default"
+2022-03-30 15:31:14.833  INFO 2368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-30 15:31:14.835  INFO 2368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-30 15:31:15.560  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-30 15:31:15.622  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2022-03-30 15:31:16.331  INFO 2368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-30 15:31:16.341  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-30 15:31:16.341  INFO 2368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-30 15:31:16.429  INFO 2368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-30 15:31:16.429  INFO 2368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1594 ms
+2022-03-30 15:31:16.568  INFO 2368 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-30 15:31:16.627  INFO 2368 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-30 15:31:16.787  INFO 2368 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-30 15:31:16.904  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-30 15:31:17.072  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-30 15:31:17.104  INFO 2368 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-30 15:31:17.916  INFO 2368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-30 15:31:17.931  INFO 2368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-30 15:31:18.483  WARN 2368 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-30 15:31:18.651  INFO 2368 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-03-30 15:31:18.944  INFO 2368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-03-30 15:31:19.651  INFO 2368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-30 15:31:19.713  INFO 2368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-30 15:31:19.733  INFO 2368 --- [restartedMain] c.n.sbdemo01.Sbdemo01Application         : Started Sbdemo01Application in 5.336 seconds (JVM running for 5.805)
+2022-03-30 15:31:34.208  INFO 2368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-30 15:31:34.209  INFO 2368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-30 15:31:34.210  INFO 2368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-30 15:31:34.770  INFO 2368 --- [http-nio-8080-exec-4] ch.noseryoung.sbdemo01.user.UserService  : User created
+2022-03-30 15:31:34.886  INFO 2368 --- [http-nio-8080-exec-8] ch.noseryoung.sbdemo01.user.UserService  : User created
+2022-03-30 15:31:34.975  INFO 2368 --- [http-nio-8080-exec-6] ch.noseryoung.sbdemo01.user.UserService  : Returned found User
+2022-03-30 15:31:35.073  INFO 2368 --- [http-nio-8080-exec-10] ch.noseryoung.sbdemo01.user.UserService  : Returned found User
+2022-03-30 15:31:35.092  INFO 2368 --- [http-nio-8080-exec-10] ch.noseryoung.sbdemo01.user.UserService  : Updated User
+2022-03-30 15:31:35.171  INFO 2368 --- [http-nio-8080-exec-5] ch.noseryoung.sbdemo01.user.UserService  : Returned found User
+2022-03-30 15:31:35.281  INFO 2368 --- [http-nio-8080-exec-9] ch.noseryoung.sbdemo01.user.UserService  : Deleted an User
+2022-03-30 15:31:35.404  INFO 2368 --- [http-nio-8080-exec-7] c.n.sbdemo01.order.OrderService          : Order created
+2022-03-30 15:31:35.466  INFO 2368 --- [http-nio-8080-exec-2] c.n.sbdemo01.order.OrderService          : Returned all Orders
+2022-03-30 15:31:35.552  INFO 2368 --- [http-nio-8080-exec-1] c.n.sbdemo01.order.OrderService          : Returned found Order
+2022-03-30 15:31:35.654  INFO 2368 --- [http-nio-8080-exec-3] c.n.sbdemo01.order.OrderService          : Returned found Order
+2022-03-30 15:31:35.668  INFO 2368 --- [http-nio-8080-exec-3] c.n.sbdemo01.order.OrderService          : Updated Order
+2022-03-30 15:31:35.747  INFO 2368 --- [http-nio-8080-exec-4] c.n.sbdemo01.order.OrderService          : Returned found Order
+2022-03-30 15:31:35.816  INFO 2368 --- [http-nio-8080-exec-8] c.n.sbdemo01.order.OrderService          : Deleted an Order
+2022-03-30 15:31:35.918  INFO 2368 --- [http-nio-8080-exec-6] c.n.sbdemo01.order.OrderService          : Returned found Order
+2022-03-30 15:31:35.925  WARN 2368 --- [http-nio-8080-exec-6] c.n.sbdemo01.order.OrderController       : RuntimeException:Could not write JSON: Unable to find ch.noseryoung.sbdemo01.order.Order with id 11; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unable to find ch.noseryoung.sbdemo01.order.Order with id 11 (through reference chain: ch.noseryoung.sbdemo01.order.Order$HibernateProxy$XadsXqkf["shippingMethodId"])
+2022-03-30 15:31:35.928  WARN 2368 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find ch.noseryoung.sbdemo01.order.Order with id 11; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unable to find ch.noseryoung.sbdemo01.order.Order with id 11 (through reference chain: ch.noseryoung.sbdemo01.order.Order$HibernateProxy$XadsXqkf["shippingMethodId"])]
